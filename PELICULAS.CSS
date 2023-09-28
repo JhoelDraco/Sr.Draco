@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel img {
+    width: 100%;
+    transition: transform 0.5s ease;
+}
+
+/* Estilo para el carrusel de imágenes */
+.carousel:hover img {
+    transform: scale(1.1); /* Cambia el tamaño al hacer hover */
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
